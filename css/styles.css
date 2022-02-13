@@ -129,13 +129,13 @@ img {
   background: #2f303a;
 }
 .main-caption-name {
-  text-align: center;
   margin-top: 0px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -160,7 +160,6 @@ img {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #188ce8;
