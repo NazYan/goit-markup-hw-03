@@ -178,7 +178,10 @@ img {
 }
 .feature {
   display: flex;
-  text-align: center;
+  padding-top: 94px;
+}
+.feature-item:not(:last-child) {
+  margin-right: 30px;
 }
 .feature-titel {
   margin-bottom: 10px;
@@ -189,6 +192,7 @@ img {
   text-transform: uppercase;
 }
 .feature-description {
+  width: 270px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
