@@ -315,6 +315,16 @@ img {
   margin-right: 8px;
 }
 .btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
   padding: 6px 22px;
   border: none;
 }
@@ -333,18 +343,6 @@ img {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   border: none;
-  cursor: pointer;
-}
-.btn {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
-  background: #f5f4fa;
-  border-radius: 4px;
   cursor: pointer;
 }
 .example-list {
