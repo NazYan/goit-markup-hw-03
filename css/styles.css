@@ -268,6 +268,8 @@ img {
   background: #2f303a;
 }
 .logo-footer {
+  display: block;
+  margin-bottom: 20px;
   font-family: var(--secondary-font-family);
   font-style: normal;
   font-weight: bold;
@@ -279,17 +281,19 @@ img {
 .logo-white {
   color: #ffffff;
 }
-.adress-description {
-  padding-top: 20px;
+.address {
   font-style: normal;
-  font-weight: 400;
+}
+.address-description {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+.contact-list:not(:last-child) {
+  margin-bottom: 9px;
+}
 .contact-list-description {
-  padding-top: 9px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -298,16 +302,24 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 /* portfolio */
+.jobs-list {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .btn-list {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .btn-item:not(:last-child) {
   margin-right: 8px;
 }
+.btn {
+  padding: 6px 22px;
+  border: none;
+}
 .btn-current {
+  padding: 6px 22px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -320,6 +332,7 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
+  border: none;
   cursor: pointer;
 }
 .btn {
@@ -339,7 +352,6 @@ img {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  padding-bottom: 94px;
 }
 .example-list-item {
   flex-basis: calc((100% - 120px) / 9);
